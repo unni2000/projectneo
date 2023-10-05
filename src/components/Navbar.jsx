@@ -74,7 +74,7 @@ const Navbar = () => {
       <Container>
         <Links>
         <h1>NeoSynaptics </h1>
-          {/* <Logo src="./img/logoneo.jpg" /> */}
+          <Logo src="./img/logo.png" />
           {/* <List>
             <ListItem>Home</ListItem>
             <ListItem>Studio</ListItem>
