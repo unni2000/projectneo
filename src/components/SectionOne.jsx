@@ -1,8 +1,6 @@
 import React, { Suspense } from "react";
 import styled from "styled-components";
 import Navbar from "./Navbar";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 
 const Section = styled.div`
   height: 100vh;
@@ -59,10 +57,6 @@ const WhatWeDo = styled.div`
   gap: 10px;
 `;
 
-const Line = styled.img`
-  height: 5px;
-`;
-
 const Subtitle = styled.h2`
   color: #da4ea2;
 `;
@@ -76,16 +70,6 @@ const Desc = styled.p`
   }
 `;
 
-const Button = styled.button`
-  background-color: #da4ea2;
-  color: white;
-  font-weight: 500;
-  width: 100px;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-`;
 
 const Right = styled.div`
   flex: 3;
@@ -129,30 +113,13 @@ const SectionOne = () => {
         <Left>
           <Title>Precision Engineering</Title>
           <WhatWeDo>
-            {/* <Line src="./img/line.png" /> */}
             <Subtitle>What we Do</Subtitle>
           </WhatWeDo>
           <Desc>
           Every thread, every stitch of NeoSynaptics encapsulates advanced technology, designed for the modern trailblazer.
           </Desc>
-          {/* <Button>Learn More</Button> */}
         </Left>
         <Right>
-          {/* <Canvas>
-            <Suspense fallback={null}>
-              <OrbitControls enableZoom={false} />
-              <ambientLight intensity={1} />
-              <directionalLight position={[3, 2, 1]} />
-              <Sphere args={[1, 100, 200]} scale={2.4}>
-                <MeshDistortMaterial
-                  color="#3d1c56"
-                  attach="material"
-                  distort={0.5}
-                  speed={2}
-                />
-              </Sphere>
-            </Suspense>
-          </Canvas> */}
           <Img src="./img/cap21.png" />
         </Right>
       </Container>

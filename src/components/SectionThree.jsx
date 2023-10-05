@@ -50,19 +50,6 @@ const Title = styled.h1`
   }
 `;
 
-const WhatWeDo = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 10px;
-`;
-
-const Line = styled.img`
-  height: 5px;
-`;
-
-const Subtitle = styled.h2`
-  color: #da4ea2;
-`;
 
 const Desc = styled.p`
   font-size: 24px;
@@ -73,16 +60,6 @@ const Desc = styled.p`
   }
 `;
 
-const Button = styled.button`
-  background-color: #da4ea2;
-  color: white;
-  font-weight: 500;
-  width: 100px;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-`;
 
 const Right = styled.div`
   flex: 3;
@@ -123,31 +100,11 @@ function SectionThree() {
       <Container>
         <Left>
           <Title>Evolution Awaits</Title>
-          <WhatWeDo>
-            {/* <Line src="./img/line.png" /> */}
-            <Subtitle>What we Do</Subtitle>
-          </WhatWeDo>
           <Desc>
           While we begin our journey with the iconic baseball cap, our vision transcends beyond, foreseeing a lineage of refined wearables
           </Desc>
-          {/* <Button>Learn More</Button> */}
         </Left>
         <Right>
-          {/* <Canvas>
-            <Suspense fallback={null}>
-              <OrbitControls enableZoom={false} />
-              <ambientLight intensity={1} />
-              <directionalLight position={[3, 2, 1]} />
-              <Sphere args={[1, 100, 200]} scale={2.4}>
-                <MeshDistortMaterial
-                  color="#3d1c56"
-                  attach="material"
-                  distort={0.5}
-                  speed={2}
-                />
-              </Sphere>
-            </Suspense>
-          </Canvas> */}
           <Img src="./img/cap1.png" />
         </Right>
       </Container>

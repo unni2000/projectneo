@@ -1,8 +1,5 @@
 import styled from "styled-components";
-import Contact from "./components/Contact";
 import SectionOne from "./components/SectionOne";
-import Who from "./components/Who";
-import Works from "./components/Works";
 import SectionTwo from "./components/SectionTwo";
 import SectionThree from "./components/SectionThree";
 import Footer from "./components/footer";
@@ -27,9 +24,6 @@ function App() {
       <SectionTwo/>
       <SectionThree/>
       <Footer/>
-      {/* <Who />
-      <Works />
-      <Contact /> */}
     </Container>
   );
 }

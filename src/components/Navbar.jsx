@@ -33,19 +33,6 @@ const Logo = styled.img`
   height: 50px;
 `;
 
-// const List = styled.ul`
-//   display: flex;
-//   gap: 20px;
-//   list-style: none;
-
-//   @media only screen and (max-width: 768px) {
-//     display: none;
-//   }
-// `;
-
-// const ListItem = styled.li`
-//   cursor: pointer;
-// `;
 
 const Icons = styled.div`
   display: flex;
@@ -53,10 +40,6 @@ const Icons = styled.div`
   gap: 20px;
 `;
 
-// const Icon = styled.img`
-//   width: 20px;
-//   cursor: pointer;
-// `;
 
 const Button = styled.button`
   width: 100px;
@@ -75,16 +58,8 @@ const Navbar = () => {
         <Links>
         <h1>NeoSynaptics </h1>
           <Logo src="./img/logo.png" />
-          {/* <List>
-            <ListItem>Home</ListItem>
-            <ListItem>Studio</ListItem>
-            <ListItem>Works</ListItem>
-            <ListItem>Contact</ListItem>
-          </List> */}
         </Links>
         <Icons>
-          {/* Changed the image due to copyright problems */}
-          {/* <Icon src="./img/search.png" /> */}
           <Button>Login</Button>
         </Icons>
       </Container>

@@ -42,28 +42,6 @@ const Left = styled.div`
   }
 `;
 
-const Title = styled.h1`
-  font-size: 74px;
-
-  @media only screen and (max-width: 768px) {
-    text-align: center;
-  }
-`;
-
-const WhatWeDo = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 10px;
-`;
-
-const Line = styled.img`
-  height: 5px;
-`;
-
-const Subtitle = styled.h2`
-  color: #da4ea2;
-`;
-
 const Desc = styled.p`
   font-size: 24px;
   color: lightgray;
@@ -71,17 +49,6 @@ const Desc = styled.p`
     padding: 20px;
     text-align: center;
   }
-`;
-
-const Button = styled.button`
-  background-color: #da4ea2;
-  color: white;
-  font-weight: 500;
-  width: 100px;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
 `;
 
 const Right = styled.div`
@@ -103,7 +70,7 @@ const Img = styled.img`
   left: 0;
   right: 0;
   margin: auto;
- 
+  animation: animate 2s infinite ease alternate;
 
   @media only screen and (max-width: 768px) {
     width: 300px;
@@ -127,21 +94,6 @@ function Footer() {
         </Desc>
       </Left>
       <Right>
-        {/* <Canvas>
-          <Suspense fallback={null}>
-            <OrbitControls enableZoom={false} />
-            <ambientLight intensity={1} />
-            <directionalLight position={[3, 2, 1]} />
-            <Sphere args={[1, 100, 200]} scale={2.4}>
-              <MeshDistortMaterial
-                color="#3d1c56"
-                attach="material"
-                distort={0.5}
-                speed={2}
-              />
-            </Sphere>
-          </Suspense>
-        </Canvas> */}
         <Img src="./img/logo.png" />
       </Right>
     </Container>
