@@ -2,7 +2,7 @@ import styled from "styled-components";
 import SectionOne from "./components/SectionOne";
 import SectionTwo from "./components/SectionTwo";
 import SectionThree from "./components/SectionThree";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 const Container = styled.div`
   height: 100vh;
