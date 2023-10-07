@@ -31,6 +31,9 @@ const Links = styled.div`
 
 const Logo = styled.img`
   height: 50px;
+  @media only screen and (max-width: 768px) {
+   display: none;
+  }
 `;
 
 
@@ -51,12 +54,13 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
+
 const Navbar = () => {
   return (
     <Section>
       <Container>
         <Links>
-        <h1>NeoSynaptics </h1>
+        <h2>NeoSynaptics </h2>
           <Logo src="./img/logo.png" />
         </Links>
         <Icons>
