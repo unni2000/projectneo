@@ -116,7 +116,7 @@ const SectionOne = () => {
             <Subtitle>What we Do</Subtitle>
           </WhatWeDo>
           <Desc>
-          Every thread, every stitch of NeoSynaptics encapsulates advanced technology, designed for the modern trailblazer.
+          Every thread, every stitch of NeoSynaptics encapsulates advanced technology, designed for the modern wearable tech.
           </Desc>
         </Left>
         <Right>

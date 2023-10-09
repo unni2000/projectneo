@@ -90,6 +90,7 @@ const Img = styled.img`
  
 
   @media only screen and (max-width: 768px) {
+    display: none;
     width: 300px;
     height: 300px;
   }
