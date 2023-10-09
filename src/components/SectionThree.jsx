@@ -106,7 +106,7 @@ function SectionThree() {
           </Desc>
         </Left>
         <Right>
-          <Img src="./img/cap1.png" />
+          <Img src="./img/mcap1.png" />
         </Right>
       </Container>
     </Section>

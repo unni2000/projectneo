@@ -120,7 +120,7 @@ const SectionOne = () => {
           </Desc>
         </Left>
         <Right>
-          <Img src="./img/cap21.png" />
+          <Img src="./img/mcap3.png" />
         </Right>
       </Container>
     </Section>
