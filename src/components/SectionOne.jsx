@@ -116,11 +116,11 @@ const SectionOne = () => {
             <Subtitle>What we Do</Subtitle>
           </WhatWeDo>
           <Desc>
-          Every thread, every stitch of NeoSynaptics encapsulates advanced technology, designed for the modern trailblazer.
+          Every thread, every stitch of NeoSynaptics encapsulates advanced technology, designed for the modern wearable tech.
           </Desc>
         </Left>
         <Right>
-          <Img src="./img/cap21.png" />
+          <Img src="./img/mcap3.png" />
         </Right>
       </Container>
     </Section>
