@@ -1,8 +1,6 @@
 import styled from "styled-components";
-import SectionOne from "./components/SectionOne";
-import SectionTwo from "./components/SectionTwo";
-import SectionThree from "./components/SectionThree";
-import Footer from "./components/footer";
+import Home from "./pages/Home";
+
 
 const Container = styled.div`
   height: 100vh;
@@ -20,10 +18,8 @@ const Container = styled.div`
 function App() {
   return (
     <Container>
-      <SectionOne />
-      <SectionTwo/>
-      <SectionThree/>
-      <Footer/>
+      <Home/>
+      {/* <Dashboard/> */}
     </Container>
   );
 }
