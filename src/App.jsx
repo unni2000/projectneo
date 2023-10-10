@@ -1,6 +1,6 @@
+
 import styled from "styled-components";
 import Home from "./pages/Home";
-
 
 const Container = styled.div`
   height: 100vh;
