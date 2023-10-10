@@ -1,6 +1,13 @@
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
 
 import styled from "styled-components";
 import Home from "./pages/Home";
+import Dashboard from "./pages/Dashboard";
 
 const Container = styled.div`
   height: 100vh;
@@ -14,12 +21,20 @@ const Container = styled.div`
     display: none;
   }
 `;
-
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home/>
+  },
+  {
+    path:"/dashboard",
+    element: <Dashboard/>
+  }
+]);
 function App() {
   return (
     <Container>
-      <Home/>
-      {/* <Dashboard/> */}
+      <RouterProvider router={router} />
     </Container>
   );
 }
