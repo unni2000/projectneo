@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-
+import {
+  Link,
+} from "react-router-dom";
 const Section = styled.div`
   display: flex;
   justify-content: center;
@@ -64,7 +66,9 @@ const Navbar = () => {
           <Logo src="./img/logo.png" />
         </Links>
         <Icons>
+          <Link to="login">
           <Button>Login</Button>
+          </Link>
         </Icons>
       </Container>
     </Section>
