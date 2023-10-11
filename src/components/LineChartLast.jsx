@@ -3,8 +3,13 @@ import styled from 'styled-components';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const RightSection = styled.div`
-  height: 100px;
+  height: 110px;
   width: 790px;
+
+  /* Add a CSS rule to hide the X-axis label */
+  .recharts-x-axis-label {
+    display: none;
+  }
 `;
 
 function LineChartFlowing() {
@@ -19,7 +24,7 @@ function LineChartFlowing() {
       let prevData = data.length ? data[data.length - 1] : null;
 
       for (let i = 0; i < dataLength; i++) {
-        const name = `Page ${i}`;
+        const name = `${i}s`;
         const uv = prevData ? Math.random() * dataMax : 0;
 
         if (prevData) {
@@ -42,10 +47,9 @@ function LineChartFlowing() {
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={data}>
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" /> {/* Hide X-axis ticks and legend */}
+          <XAxis dataKey="name"/> {/* Hide X-axis ticks and legend */}
           <YAxis domain={[0, dataMax]} />
           <Tooltip />
-          <Legend />
           <Line type="monotone" dataKey="uv" stroke="#8884d8" activeDot={{ r: 8 }} />
         </LineChart>
       </ResponsiveContainer>

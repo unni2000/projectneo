@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const RightSection = styled.div`
-  height: 100px;
+  height: 70px;
   width: 790px;
 
   /* Add a CSS rule to hide the X-axis label */
@@ -47,7 +47,7 @@ function LineChartFlowing() {
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={data}>
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" tick={false} hide={true} /> {/* Hide X-axis ticks and legend */}
+          <XAxis dataKey="name" hide={true} /> {/* Hide X-axis ticks and legend */}
           <YAxis domain={[0, dataMax]} />
           <Tooltip />
           <Line type="monotone" dataKey="uv" stroke="#8884d8" activeDot={{ r: 8 }} />

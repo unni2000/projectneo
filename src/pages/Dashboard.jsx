@@ -104,7 +104,6 @@ function Dashboard() {
           <LineChartOne/>
           <LineChartOne/>
           <LineChartOne/>
-          <LineChartOne/>
           <LineChartLast/>
         </Right>
       </Container>
