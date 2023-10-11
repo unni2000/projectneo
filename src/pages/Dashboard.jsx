@@ -3,6 +3,7 @@ import React, { Suspense } from "react";
 import styled from "styled-components";
 import StationNav from "../components/StationNav";
 import BarChartOne from "../components/BarChartOne";
+import LineChartOne from "../components/LineChartOne";
 
 
 const DashboardContainer = styled.div`
@@ -12,7 +13,6 @@ const DashboardContainer = styled.div`
   overflow-y: auto;
   scrollbar-width: none;
   color: #ffffff;
-  background-color:#cecece;
   &::-webkit-scrollbar{
     display: none;
   }
@@ -33,7 +33,6 @@ const Container = styled.div`
 `;
 
 const Left = styled.div`
-background-color: #ffffff;
   flex: 2;
   display: flex;
   flex-direction: column;
@@ -52,7 +51,6 @@ width : 750px;
 `
 
 const Right = styled.div`
-background-color: blueviolet;
   flex: 2;
   position: relative;
   display: flex;
@@ -64,10 +62,7 @@ background-color: blueviolet;
     height: 500px;
   }
 `;
-const RightSection = styled.div`
-height: 500px;
-width : 750px;
-`
+
 const Img = styled.img`
   width: 800px;
   height: 600px;
@@ -102,9 +97,10 @@ function Dashboard() {
       </LeftSection>
         </Left>
         <Right>
-          <RightSection>
-         
-          </RightSection>
+          <LineChartOne/>
+          <LineChartOne/>
+          <LineChartOne/>
+          <LineChartOne/>
         </Right>
       </Container>
     </DashboardContainer>
