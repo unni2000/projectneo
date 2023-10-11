@@ -49,8 +49,8 @@ const Icons = styled.div`
 const Button = styled.button`
   width: 100px;
   padding: 10px;
-  background-color: #da4ea2;
-  color: white;
+  background-color: #214aed;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   cursor: pointer;

@@ -106,7 +106,7 @@ function SectionTwo() {
 
       <Container>
         <Left>
-          <Img src="./img/cap3.png" />
+          <Img src="./img/ocap1.png" />
         </Left>
         <Right>
         <Title>Next-Gen Tech</Title>

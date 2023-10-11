@@ -44,6 +44,7 @@ const Left = styled.div`
 
 const Title = styled.h1`
   font-size: 74px;
+  color:#ffffff;
 
   @media only screen and (max-width: 768px) {
     text-align: center;
@@ -58,7 +59,7 @@ const WhatWeDo = styled.div`
 `;
 
 const Subtitle = styled.h2`
-  color: #da4ea2;
+  color: #f32a2a;
 `;
 
 const Desc = styled.p`
@@ -120,7 +121,7 @@ const SectionOne = () => {
           </Desc>
         </Left>
         <Right>
-          <Img src="./img/mcap3.png" />
+          <Img src="./img/ocap4.png" />
         </Right>
       </Container>
     </Section>
