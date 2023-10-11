@@ -4,6 +4,7 @@ import styled from "styled-components";
 import StationNav from "../components/StationNav";
 import BarChartOne from "../components/BarChartOne";
 import LineChartOne from "../components/LineChartOne";
+import LineChartLast from "../components/LineChartLast";
 
 
 const DashboardContainer = styled.div`
@@ -59,7 +60,7 @@ const Right = styled.div`
   @media only screen and (max-width: 768px) {
     flex: 1;
     width: 100%;
-    height: 500px;
+    height: 800px;
   }
 `;
 
@@ -101,6 +102,9 @@ function Dashboard() {
           <LineChartOne/>
           <LineChartOne/>
           <LineChartOne/>
+          <LineChartOne/>
+          <LineChartOne/>
+          <LineChartLast/>
         </Right>
       </Container>
     </DashboardContainer>
