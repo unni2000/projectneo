@@ -46,7 +46,7 @@ const data = [
     },
   ];
 const RightSection = styled.div`
-height: 200px;
+height: 170px;
 width : 790px;
 `
 function LineChartOne() {

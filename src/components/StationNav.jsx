@@ -31,7 +31,12 @@ const Links = styled.div`
   align-items: center;
   gap: 50px;
 `;
+const SubTitle = styled.h2`
+font-family:Arial, Helvetica, sans-serif;
+font-size: large;
+`
 const Title = styled.h2`
+
 `
 const Logo = styled.img`
   height: 50px;
@@ -66,6 +71,7 @@ const StationNav = () => {
       <Container>
         <Links>
         <Title>NeoSynaptics </Title>
+        <SubTitle>STATION </SubTitle>
         </Links>
         <Icons>
           <Link to="login">
