@@ -2,7 +2,7 @@ import React from 'react'
 import SectionOne from '../components/SectionOne'
 import SectionTwo from '../components/SectionTwo'
 import SectionThree from '../components/SectionThree'
-import Footer from '../components/footer'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
