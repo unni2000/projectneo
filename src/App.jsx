@@ -1,8 +1,16 @@
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
+
 import styled from "styled-components";
-import SectionOne from "./components/SectionOne";
-import SectionTwo from "./components/SectionTwo";
-import SectionThree from "./components/SectionThree";
-import Footer from "./components/Footer";
+
+import Home from "./pages/Home";
+import Dashboard from "./pages/Dashboard";
+import Login from "./pages/Login";
+
 
 const Container = styled.div`
   height: 100vh;
@@ -16,14 +24,24 @@ const Container = styled.div`
     display: none;
   }
 `;
-
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home/>
+  },
+  {
+    path:"/dashboard",
+    element: <Dashboard/>
+  },
+  {
+    path:"/login",
+    element: <Login/>
+  }
+]);
 function App() {
   return (
     <Container>
-      <SectionOne />
-      <SectionTwo/>
-      <SectionThree/>
-      <Footer/>
+      <RouterProvider router={router} />
     </Container>
   );
 }
