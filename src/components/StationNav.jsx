@@ -7,7 +7,6 @@ import {
 const Section = styled.div`
   display: flex;
   justify-content: center;
-  background-color: #ffffff;
 
   @media only screen and (max-width: 768px) {
     width: 100%;
@@ -33,7 +32,6 @@ const Links = styled.div`
   gap: 50px;
 `;
 const Title = styled.h2`
-color:black;
 `
 const Logo = styled.img`
   height: 50px;
@@ -68,7 +66,6 @@ const StationNav = () => {
       <Container>
         <Links>
         <Title>NeoSynaptics </Title>
-          <h3>Station</h3>
         </Links>
         <Icons>
           <Link to="login">
