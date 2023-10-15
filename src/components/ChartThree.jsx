@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 import LineChartOne from "../components/LineChartOne";
 const ChartThreeSection = styled.div`
-height: 100%;
+height: 30%;
 width: 100%;
 display: flex;
 flex-direction: column;
@@ -13,6 +13,7 @@ const FocusChart = styled.div`
 width:850px ;
 height: 100px;
 display: flex;
+padding-left: 1.9%;
 justify-content: center;
 align-items: center;
 `
