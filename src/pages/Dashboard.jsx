@@ -5,11 +5,12 @@ import StationNav from "../components/StationNav";
 import BarChartOne from "../components/BarChartOne";
 import LineChartOne from "../components/LineChartOne";
 import LineChartLast from "../components/LineChartLast";
+import ChartThree from "../components/ChartThree";
 
 
 const DashboardContainer = styled.div`
   height: 100vh;
-  scroll-snap-type: y mandatory;
+  /* scroll-snap-type: y mandatory; */
   scroll-behavior: smooth;
   overflow-y: auto;
   scrollbar-width: none;
@@ -104,9 +105,11 @@ function Dashboard() {
           <LineChartOne/>
           <LineChartOne/>
           <LineChartOne/>
+          <LineChartOne/>
           <LineChartLast/>
         </Right>
       </Container>
+      <ChartThree/>
     </DashboardContainer>
   )
 }
