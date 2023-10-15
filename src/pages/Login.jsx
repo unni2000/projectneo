@@ -24,6 +24,10 @@ const LoginFormContainer = styled.div`
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  @media only screen and (max-width: 768px) {
+    width: 270px;
+    height: 200px;
+  }
 `;
 
 const Title = styled.h2`
@@ -38,6 +42,9 @@ const InputField = styled.input`
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
+  @media only screen and (max-width: 768px) {
+    width: 250px;
+  }
 `;
 
 const Button = styled.button`
