@@ -35,7 +35,7 @@ const Container = styled.div`
 `;
 
 const Left = styled.div`
-  flex: 2;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,7 +53,7 @@ width : 750px;
 `
 
 const Right = styled.div`
-  flex: 2;
+  flex: 3;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -88,6 +88,18 @@ const Img = styled.img`
     }
   }
 `;
+const LineChartBody = styled.div`
+width:850px ;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+`
+const Title = styled.div`
+width:30px;
+display: flex;
+justify-content: center;;
+`
 function Dashboard() {
   return (
     <DashboardContainer>
@@ -99,14 +111,38 @@ function Dashboard() {
       </LeftSection>
         </Left>
         <Right>
+          <LineChartBody>
           <LineChartOne/>
+          <Title>F1L</Title>
+          </LineChartBody>
+          <LineChartBody>
           <LineChartOne/>
+          <Title>F2L</Title>
+          </LineChartBody>
+          <LineChartBody>
           <LineChartOne/>
+          <Title>F3L</Title>
+          </LineChartBody>
+          <LineChartBody>
           <LineChartOne/>
+          <Title>F4L</Title>
+          </LineChartBody>
+          <LineChartBody>
           <LineChartOne/>
+          <Title>F5L</Title>
+          </LineChartBody>
+          <LineChartBody>
           <LineChartOne/>
+          <Title>F6L</Title>
+          </LineChartBody>
+          <LineChartBody>
           <LineChartOne/>
-          <LineChartLast/>
+          <Title>F7L</Title>
+          </LineChartBody>
+          <LineChartBody>
+          <LineChartOne/>
+          <Title>F8L</Title>
+          </LineChartBody>
         </Right>
       </Container>
       <ChartThree/>

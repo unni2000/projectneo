@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 import LineChartOne from "../components/LineChartOne";
 const ChartThreeSection = styled.div`
-height: 100%;
+height: 100px;
 width: 100%;
 display: flex;
 flex-direction: column;
@@ -23,15 +23,21 @@ display: flex;
 justify-content: center;
 align-items: center;
 `
+const Title = styled.div`
+width:50px;
+display: flex;
+justify-content: center;;
+`
+
 function ChartThree() {
   return (
     <ChartThreeSection>
       <FocusChart>
-      <h4>Focus</h4>
+      <Title>Focus</Title>
       <LineChartOne/>
       </FocusChart>
       <TirednessChart>
-      <h4>Tiredness</h4>
+      <Title>Tiredness</Title>
       <LineChartOne/>
       </TirednessChart>
     </ChartThreeSection>

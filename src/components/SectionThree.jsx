@@ -72,7 +72,7 @@ const Right = styled.div`
 `;
 
 const Img = styled.img`
-  width: 800px;
+  width: 300px;
   height: 600px;
   object-fit: contain;
   position: absolute;
