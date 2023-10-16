@@ -95,7 +95,7 @@ const Img = styled.img`
   animation: animate 2s infinite ease alternate;
 
   @media only screen and (max-width: 768px) {
-    width: 200px;
+    width: 250px;
     height: 300px;
   }
 

@@ -90,7 +90,7 @@ const Img = styled.img`
  
 
   @media only screen and (max-width: 768px) {
-    width: 300px;
+    width: 200px;
     height: 200px;
   }
 
@@ -106,7 +106,7 @@ function SectionTwo() {
 
       <Container>
         <Left>
-          <Img src="./img/ocap1.png" />
+          <Img src="./img/ocap2.png" />
         </Left>
         <Right>
         <Title>Next-Gen Tech</Title>
