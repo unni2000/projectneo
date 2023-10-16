@@ -106,7 +106,7 @@ function Dashboard() {
           <LineChartOne/>
           <LineChartOne/>
           <LineChartOne/>
-          <LineChartLast/>
+          <LineChartOne/>
         </Right>
       </Container>
       <ChartThree/>

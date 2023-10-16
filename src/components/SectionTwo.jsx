@@ -9,7 +9,7 @@ const Section = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     height: 100vh;
   }
 `;
@@ -21,7 +21,7 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -32,9 +32,10 @@ const Container = styled.div`
 const Left = styled.div`
   flex: 3;
   position: relative;
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     flex: 1;
-    width: 100%;
+    width: 800px;
+    height: 100px;
   }
   
 `;
@@ -42,7 +43,7 @@ const Left = styled.div`
 const Title = styled.h1`
   font-size: 74px;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     text-align: center;
     font-size: 50px;
   }
@@ -58,7 +59,7 @@ const WhatWeDo = styled.div`
 const Desc = styled.p`
   font-size: 24px;
   color: lightgray;
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     padding: 20px;
     text-align: center;
   }
@@ -71,7 +72,7 @@ flex: 2;
   justify-content: center;
   gap: 20px;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     flex: 1;
     align-items: center;
   }
@@ -89,9 +90,10 @@ const Img = styled.img`
   margin: auto;
  
 
-  @media only screen and (max-width: 768px) {
-    width: 300px;
-    height: 200px;
+  @media only screen and (max-width: 844px) {
+    width: 800px;
+    height: 400px;
+    
   }
 
   @keyframes animate {

@@ -21,7 +21,7 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -36,9 +36,10 @@ const Left = styled.div`
   justify-content: center;
   gap: 20px;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     flex: 1;
     align-items: center;
+    padding-bottom:-5px;
   }
 `;
 
@@ -46,7 +47,7 @@ const Title = styled.h1`
   font-size: 74px;
   color:#ffffff;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     text-align: center;
     font-size: 50px;
   }
@@ -65,8 +66,9 @@ const Subtitle = styled.h2`
 const Desc = styled.p`
   font-size: 24px;
   color: lightgray;
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     padding: 20px;
+    padding-bottom:5px;
     text-align: center;
   }
 `;
@@ -75,10 +77,12 @@ const Desc = styled.p`
 const Right = styled.div`
   flex: 3;
   position: relative;
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     flex: 1;
-    width: 100%;
-    height: 500px;
+    width: 550px;
+    height: 100px;
+    padding-top:-10px;
+    padding-right:20px
   }
 `;
 
@@ -94,9 +98,10 @@ const Img = styled.img`
   margin: auto;
   animation: animate 2s infinite ease alternate;
 
-  @media only screen and (max-width: 768px) {
-    width: 200px;
-    height: 300px;
+  @media only screen and (max-width: 844px) {
+    width: 400px;
+    height: 400px;
+    padding-right:-20px;
   }
 
   @keyframes animate {

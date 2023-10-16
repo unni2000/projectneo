@@ -9,7 +9,7 @@ const Section = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     height: 400px;
   }
 `;
@@ -21,7 +21,7 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -36,7 +36,7 @@ const Left = styled.div`
   justify-content: center;
   gap: 20px;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     flex: 1;
     align-items: center;
   }
@@ -45,7 +45,7 @@ const Left = styled.div`
 const Desc = styled.p`
   font-size: 24px;
   color: lightgray;
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     padding: 20px;
     text-align: center;
   }
@@ -54,7 +54,7 @@ const Desc = styled.p`
 const Right = styled.div`
   flex: 3;
   position: relative;
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     flex: 1;
     width: 100%;
   }
@@ -72,9 +72,9 @@ const Img = styled.img`
   margin: auto;
   animation: animate 2s infinite ease alternate;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 844px) {
     width: 300px;
-    height: 300px;
+    height: 200px;
   }
 
   @keyframes animate {
