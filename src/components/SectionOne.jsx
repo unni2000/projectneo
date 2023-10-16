@@ -98,10 +98,9 @@ const Img = styled.img`
   margin: auto;
   animation: animate 2s infinite ease alternate;
 
-  @media only screen and (max-width: 844px) {
-    width: 400px;
-    height: 400px;
-    padding-right:-20px;
+  @media only screen and (max-width: 768px) {
+    width: 250px;
+    height: 300px;
   }
 
   @keyframes animate {

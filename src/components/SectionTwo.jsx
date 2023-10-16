@@ -90,10 +90,9 @@ const Img = styled.img`
   margin: auto;
  
 
-  @media only screen and (max-width: 844px) {
-    width: 800px;
-    height: 400px;
-    
+  @media only screen and (max-width: 768px) {
+    width: 200px;
+    height: 200px;
   }
 
   @keyframes animate {
@@ -108,7 +107,7 @@ function SectionTwo() {
 
       <Container>
         <Left>
-          <Img src="./img/ocap1.png" />
+          <Img src="./img/ocap2.png" />
         </Left>
         <Right>
         <Title>Next-Gen Tech</Title>
