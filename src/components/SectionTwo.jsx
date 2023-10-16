@@ -79,7 +79,7 @@ flex: 2;
 `;
 
 const Img = styled.img`
-  width: 800px;
+  width: 500px;
   height: 600px;
   object-fit: contain;
   position: absolute;
