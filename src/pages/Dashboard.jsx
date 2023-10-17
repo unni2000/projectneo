@@ -121,27 +121,27 @@ function Dashboard() {
           </LineChartBody>
           <LineChartBody>
           <LineChartOne/>
-          <Title>F3L</Title>
+          <Title>F3</Title>
           </LineChartBody>
           <LineChartBody>
           <LineChartOne/>
-          <Title>F4L</Title>
+          <Title>F4</Title>
           </LineChartBody>
           <LineChartBody>
           <LineChartOne/>
-          <Title>F5L</Title>
+          <Title>C1</Title>
           </LineChartBody>
           <LineChartBody>
           <LineChartOne/>
-          <Title>F6L</Title>
+          <Title>C2</Title>
           </LineChartBody>
           <LineChartBody>
           <LineChartOne/>
-          <Title>F7L</Title>
+          <Title>C3</Title>
           </LineChartBody>
           <LineChartBody>
           <LineChartOne/>
-          <Title>F8L</Title>
+          <Title>C4</Title>
           </LineChartBody>
         </Right>
       </Container>
