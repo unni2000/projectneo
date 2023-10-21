@@ -20,13 +20,13 @@ const CenteredContainer = styled.div`
 const LoginFormContainer = styled.div`
   width: 400px;
   padding: 20px;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   @media only screen and (max-width: 768px) {
     width: 270px;
-    height: 200px;
+    height: 250px;
   }
 `;
 
@@ -35,11 +35,7 @@ const Title = styled.h2`
   text-align: center;
   color: #333;
 `;
-const SignupAlert = styled.h4`
-  padding-top:4px;
-  text-align: center;
-  color: #333;
-`;
+
 
 const InputField = styled.input`
   width: 380px;
@@ -68,22 +64,18 @@ const Button = styled.button`
     background-color: #0056b3;
   }
 `;
-function Login() {
+function Signup() {
 
     return (
       <LoginSection>
 <CenteredContainer>
       <LoginFormContainer>
-        <Title>Login</Title>
+        <Title>SignUp</Title>
         <form>
-          <InputField type="text" placeholder="Username" />
+          <InputField type="text" placeholder="Email" />
           <InputField type="password" placeholder="Password" />
-          <Link to="/dashboard">
-            <Button type="submit">Login</Button>
-            <Link to="/signup">
-            <SignupAlert>Don't have an account? SignUp</SignupAlert>
-            </Link>
-            </Link>
+          <InputField type="password" placeholder="Confirm Password" />
+            <Button type="submit">SignUp</Button>
         </form>
       </LoginFormContainer>
     </CenteredContainer>
@@ -91,4 +83,4 @@ function Login() {
     )
 }
 
-export default Login;
+export default Signup;
