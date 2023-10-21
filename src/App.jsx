@@ -10,6 +10,7 @@ import styled from "styled-components";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 
 
 const Container = styled.div`
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path:"/login",
     element: <Login/>
+  },
+  {
+    path:"/signup",
+    element:<Signup/>
   }
 ]);
 function App() {

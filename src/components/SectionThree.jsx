@@ -36,7 +36,7 @@ const Left = styled.div`
   justify-content: center;
   gap: 20px;
 
-  @media only screen and (max-width: 844px) {
+  @media only screen and (max-width: 768px) {
     flex: 1;
     align-items: center;
   }
@@ -45,7 +45,7 @@ const Left = styled.div`
 const Title = styled.h1`
   font-size: 74px;
 
-  @media only screen and (max-width: 844px) {
+  @media only screen and (max-width: 768px) {
     text-align: center;
     font-size: 50px;
   }
@@ -55,7 +55,7 @@ const Title = styled.h1`
 const Desc = styled.p`
   font-size: 24px;
   color: lightgray;
-  @media only screen and (max-width: 844px) {
+  @media only screen and (max-width: 768px) {
     padding: 20px;
     text-align: center;
   }
@@ -65,7 +65,7 @@ const Desc = styled.p`
 const Right = styled.div`
   flex: 3;
   position: relative;
-  @media only screen and (max-width: 844px) {
+  @media only screen and (max-width: 768px) {
     flex: 1;
     width: 800px;
     height: 100px;
@@ -84,9 +84,9 @@ const Img = styled.img`
   margin: auto;
  
 
-  @media only screen and (max-width: 844px) {
-    width: 800px;
-    height: 400px;
+  @media only screen and (max-width: 768px) {
+    width: 200px;
+    height: 350px;
   }
 
   @keyframes animate {
