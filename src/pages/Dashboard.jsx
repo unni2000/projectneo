@@ -100,6 +100,11 @@ width:30px;
 display: flex;
 justify-content: center;;
 `
+const Down = styled.div`
+ @media only screen and (max-width: 768px) {
+    display: none;
+  }
+`
 function Dashboard() {
   return (
     <DashboardContainer>
@@ -145,7 +150,9 @@ function Dashboard() {
           </LineChartBody>
         </Right>
       </Container>
+      <Down>
       <ChartThree/>
+      </Down>
     </DashboardContainer>
   )
 }
