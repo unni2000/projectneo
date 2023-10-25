@@ -31,6 +31,11 @@ const Links = styled.div`
   align-items: center;
   gap: 50px;
 `;
+const linkStyle = {
+  textDecoration: 'none',  // Remove underline
+  color: 'inherit',      // Inherit text color
+  outline: 'none'        // Remove outline
+};
 const SubTitle = styled.h2`
 font-family:Arial, Helvetica, sans-serif;
 font-size: large;
@@ -70,7 +75,9 @@ const StationNav = () => {
     <Section>
       <Container>
         <Links>
+        <a href="https://www.neosynaptics.com/" style={linkStyle}>
         <Title>NeoSynaptics </Title>
+        </a>
         <SubTitle>STATION </SubTitle>
         </Links>
         <Icons>

@@ -13,7 +13,6 @@ const FocusChart = styled.div`
 width:850px ;
 height: 100px;
 display: flex;
-padding-left: 1.7%;
 justify-content: center;
 align-items: center;
 `
