@@ -75,7 +75,7 @@ function Signup() {
           <InputField type="text" placeholder="Email" />
           <InputField type="password" placeholder="Password" />
           <InputField type="password" placeholder="Confirm Password" />
-            <Button type="submit">SignUp</Button>
+        <Button type="submit">SignUp</Button>
         </form>
       </LoginFormContainer>
     </CenteredContainer>

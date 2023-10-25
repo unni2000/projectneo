@@ -15,14 +15,19 @@ import Signup from "./pages/Signup";
 
 const Container = styled.div`
   height: 100vh;
-  scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
+  /* scroll-snap-type: y mandatory; */
+  /* scroll-behavior: smooth; */
+  overflow-x:hidden;
   overflow-y: auto;
   scrollbar-width: none;
   color: white;
   background: url("./img/bw.jpg");
   &::-webkit-scrollbar{
     display: none;
+  }
+  @media only screen and (max-width: 768px) {
+    height: 100vh;
+    width: 100%;
   }
 `;
 const router = createBrowserRouter([
